@@ -132,7 +132,7 @@ All errors return appropriate HTTP status codes and descriptive error messages.
 
 The project uses:
 - FastAPI for the web framework
-- OpenAI GPT-4 for text analysis
+- OpenAI GPT-4o mini for text analysis
 - PyPDF2 and python-docx for file processing
 - pandas and xlsxwriter for report generation
 
