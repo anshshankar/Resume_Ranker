@@ -93,24 +93,6 @@ Scores multiple resumes against provided criteria.
 
 ## Example Usage
 
-Using curl:
-
-```bash
-# Extract criteria from job description
-curl -X POST "http://localhost:8000/extract-criteria" \
-  -H "accept: application/json" \
-  -H "Content-Type: multipart/form-data" \
-  -F "file=@job_description.pdf"
-
-# Score resumes
-curl -X POST "http://localhost:8000/score-resumes" \
-  -H "accept: application/json" \
-  -H "Content-Type: multipart/form-data" \
-  -F "criteria={\"criteria\":[\"Python\",\"Machine Learning\"]}" \
-  -F "files=@resume1.pdf" \
-  -F "files=@resume2.pdf"
-```
-
 Using Python requests:
 
 ```python
@@ -153,3 +135,11 @@ The project uses:
 - OpenAI GPT-4 for text analysis
 - PyPDF2 and python-docx for file processing
 - pandas and xlsxwriter for report generation
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
