@@ -22,8 +22,8 @@ A FastAPI-based application that automates the process of ranking resumes based 
 
 1. Clone the repository:
 ```bash
-git https://github.com/anshshankar/Assessment_Bonsen_AI.git
-cd Assessment_Bonsen_AI
+git clone https://github.com/anshshankar/Resume_Ranker.git
+cd Project_Directory
 ```
 
 2. Create and activate a virtual environment:
